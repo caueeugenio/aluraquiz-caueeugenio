@@ -31,30 +31,28 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
 
       <QuizContainer>
-        <Widget>
+        <QuizLogo />
 
+        <Widget>
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
-
           <Widget.Content>
             <p>{db.description}</p>
           </Widget.Content>
-
         </Widget>
+
         <Widget>
-
-
           <Widget.Content>
             <h1>Quiz da galera</h1>
             <p>The Legend of Zelda</p>
             <p>The Legend of Zelda</p>
           </Widget.Content>
-
         </Widget>
-        <Footer/>
+        
+        <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/caueeugenio"/>
+      <GitHubCorner projectUrl="https://github.com/caueeugenio" />
     </QuizBackground>
   )
 
