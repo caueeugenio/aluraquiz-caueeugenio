@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 import db from '../db.json';
-import Widget from '../src/components/Widget/index';
-import Footer from '../src/components/Footer/index';
-import GitHubCorner from '../src/components/GitHubCorner/index';
-import QuizBackGround from '../src/components/QuizBackGround/index';
+import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo';
+import QuizBackGround from '../src/components/QuizBackGround';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
+
 
 
 const BackgroundImage = styled.div`
