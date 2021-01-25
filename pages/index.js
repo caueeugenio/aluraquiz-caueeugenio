@@ -49,11 +49,11 @@ export default function Home() {
             <p>The Legend of Zelda</p>
           </Widget.Content>
         </Widget>
-        
+
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/caueeugenio" />
     </QuizBackground>
-  )
+  );
 
 }
