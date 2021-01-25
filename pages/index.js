@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
-import QuizBackGround from '../src/components/QuizBackGround';
+import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 
@@ -28,7 +28,7 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <QuizBackGround backgroundImage={db.bg}>
+    <QuizBackground backgroundImage={db.bg}>
 
       <QuizContainer>
         <Widget>
@@ -38,7 +38,7 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>The Legend of Zelda</p>
+            <p>O conteúdo virá aqui.</p>
           </Widget.Content>
 
         </Widget>
@@ -48,13 +48,14 @@ export default function Home() {
           <Widget.Content>
             <h1>Quiz da galera</h1>
             <p>The Legend of Zelda</p>
+            <p>The Legend of Zelda</p>
           </Widget.Content>
 
         </Widget>
         <Footer/>
       </QuizContainer>
-      <GitHubCorner projectUrl="https://" />
-    </QuizBackGround>
+      <GitHubCorner projectUrl="https://github.com/caueeugenio"/>
+    </QuizBackground>
   )
 
 }
