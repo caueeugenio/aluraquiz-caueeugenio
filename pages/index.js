@@ -34,11 +34,11 @@ export default function Home() {
         <Widget>
 
           <Widget.Header>
-            <h1>The Legend of Zelda</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
 
           <Widget.Content>
-            <p>O conteúdo virá aqui.</p>
+            <p>{db.description}</p>
           </Widget.Content>
 
         </Widget>
