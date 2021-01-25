@@ -6,7 +6,7 @@ import GitHubCorner from '../src/components/GitHubCorner/'
 import QuizBackGround from '../src/components/QuizBackGround/'
 
 
-const BackgroundImage = styled.div`
+export const BackgroundImage = styled.div`
   background-image:url(${db.bg});
   flex:1;
   background-size:cover;
