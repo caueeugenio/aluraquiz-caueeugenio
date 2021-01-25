@@ -50,4 +50,5 @@ Widget.Content = styled.div`
   }
 `;
 
+
 export default Widget;
